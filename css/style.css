@@ -1,0 +1,37 @@
+p {
+	color: white;
+}
+
+.flex-header {
+	display: flex;
+}
+
+#rectangle {
+	 width: 200px;
+	 height: 100px;
+	 background: red;
+}
+
+.flex-container {
+	vertical-align: 
+}
+
+.flex-rel1 {
+
+}
+
+.flex-rel2 {
+
+}
+
+.flex-rel3 {
+
+}
+
+.flex-rel4 {
+
+}
+
+.flex-rel5 {
+
+}
