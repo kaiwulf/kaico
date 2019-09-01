@@ -1,37 +1,51 @@
-p {
-	color: white;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.flex-header {
-	display: flex;
+.kaico-banner {
+	color: yellow;
+    font-size: 100px;
 }
 
-#rectangle {
-	 width: 200px;
-	 height: 100px;
+/*#rectangle {
+     width: auto;
+	 height: 250px;
 	 background: red;
+}*/
+
+.flex-menu-container {
+	color: #fff;
+    background-color: #5995DA;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
 }
 
-.flex-container {
-	vertical-align: 
+.flex-menu {
+    border: 1px solid #fff;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.flex-rel1 {
-
-}
-
-.flex-rel2 {
-
-}
-
-.flex-rel3 {
+.flex-item1 {
 
 }
 
-.flex-rel4 {
+.flex-item2 {
 
 }
 
-.flex-rel5 {
+.flex-item3 {
+
+}
+
+.flex-item4 {
+
+}
+
+.flex-item5 {
 
 }
