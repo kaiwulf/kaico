@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: black;
+}
+
 .kaico-banner {
 	color: yellow;
     font-size: 100px;
@@ -14,6 +18,36 @@
 	 height: 250px;
 	 background: red;
 }*/
+
+.flex-header-container {
+    color: #fff;
+    background-color: #5995DA;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-sub-header-container {
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-links {
+    /*border: 1px solid #fff;*/
+    width: 900px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.flex-title {
+    display: flex;
+    justify-content: center;
+}
 
 .flex-menu-container {
 	color: #fff;
@@ -48,4 +82,12 @@
 
 .flex-item5 {
 
+}
+
+.flex-body {
+    color: #7cba06;
+    background-color: #5995DA;
+    padding: 20px 0;
+    display: flex;
+    /*justify-content: center;*/
 }
