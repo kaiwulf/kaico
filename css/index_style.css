@@ -109,31 +109,25 @@ body {
     height: 100%;
 }
 
-.flex-1st-column {
+.flex-parallax-body {
 	display: flex;
-	/*background-color: yellow;*/
-	width: 100%;
-	height: 100%;
-}
-
-.flex-2nd-column {
-	display: flex;
-	background-color: #5995DA;
 	/*width: 2500px;*/
     width: 100%;
-	height: 1000%;
+	height: 1500%;
     flex-direction: column;
-	/*align-items: stretch;*/
 }
 
-.flex-3rd-column {
-	display: flex;
-	/*background-color: yellow;*/
-	width: 100%;
-	height: 100%;
+.flex-parallax {
+    /*background-image: url("img/role-playing-game-k20-dice-3135365.jpg");*/
+    background-image: url("img/game.jpg");
+    height: 955px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.rpg > div {
+#rpg > div {
     width: 250px;
     height: 250px;
 }
@@ -141,6 +135,7 @@ body {
 #gaming {
     display: flex;
     justify-content: space-around;
+    background-color: #5995DA;
 }
 
 .gaming-flex {
