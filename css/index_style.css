@@ -118,9 +118,9 @@ body {
 }
 
 .flex-parallax {
-    /*background-image: url("img/role-playing-game-k20-dice-3135365.jpg");*/
-    background-image: url("img/game.jpg");
-    height: 955px;
+    display: flex;
+    background-image: url("../img/role-playing-game-k20-dice-3135365.jpg");
+    height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
