@@ -10,7 +10,8 @@ html,body {
 }
 
 body {
-    background-color: black;
+    background-color: transparent;
+    /*background-color: yellow;*/
 }
 
 .kaico-banner {
@@ -110,14 +111,14 @@ body {
 
 .flex-parallax {
     /*display: flex;*/
-    background-image: url("../img/role-playing-game-k20-dice-3135365.jpg");
-    /*background-image: url("../img/game.jpg");*/
+   /* background-image: url("../img/role-playing-game-k20-dice-3135365.jpg");*/
+    background-image: url("../img/k20.jpg");
     /*background-image: url(https://raw.githubusercontent.com/kaiwulf/kaico/master/img/role-playing-game-k20-dice-3135365.jpg);*/
     height: 1000px;
-    /*background-attachment: fixed;*/
-/*    background-position: center;
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;*/
+    background-size: contain;
 }
 
 #rpg > div {
