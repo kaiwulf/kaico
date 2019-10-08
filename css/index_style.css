@@ -109,15 +109,15 @@ body {
 }
 
 .flex-parallax {
-    display: flex;
+    /*display: flex;*/
     background-image: url("../img/role-playing-game-k20-dice-3135365.jpg");
     /*background-image: url("../img/game.jpg");*/
     /*background-image: url(https://raw.githubusercontent.com/kaiwulf/kaico/master/img/role-playing-game-k20-dice-3135365.jpg);*/
     height: 1000px;
     /*background-attachment: fixed;*/
-    background-position: center;
+/*    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain;*/
 }
 
 #rpg > div {
