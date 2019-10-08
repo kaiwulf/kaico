@@ -109,42 +109,51 @@ body {
     flex-direction: column;
 }
 
-.flex-parallax {
-    /*display: flex;*/
-   /* background-image: url("../img/role-playing-game-k20-dice-3135365.jpg");*/
-    background-image: url("../img/k20.jpg");
-    /*background-image: url(https://raw.githubusercontent.com/kaiwulf/kaico/master/img/role-playing-game-k20-dice-3135365.jpg);*/
+.flex-parallax-1 {
+    display: flex;
+    background-image: url("../img/role-playing-game-k20-dice-3135365.jpg");
     height: 1000px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
-#rpg > div {
-    width: 250px;
-    height: 250px;
-}
-
-#gaming {
+.flex-parallax-2 {
     display: flex;
-    justify-content: space-around;
-    background-color: #5995DA;
+    background-image: url("../img/role-playing-game-table-dice-set-11462981.jpg");
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.gaming-flex {
+.in-section-flex {
     display: flex;
     width: 75%;
     height: 500px;
     flex-direction: column;
 }
 
-.gaming-flex > div {
+.in-section-flex > div {
     display: flex;
     justify-content: space-around;
 }
 
-.gaming-flex > div > h2 {
+.in-section-flex > div > h2 {
     text-align: center;
     padding: 10px 0;
+}
+
+#rpg {
+    display: flex;
+    justify-content: space-around;
+    background-color: #5995DA;
+}
+
+#gaming {
+    display: flex;
+    justify-content: space-around;
+    background-color: #5995DA;
 }
