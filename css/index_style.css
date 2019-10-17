@@ -49,6 +49,10 @@ body {
     justify-content: center;
 }
 
+a:hover {
+    color: orange;
+}
+
 .flex-menu-container {
 	color: #fff;
     background-color: #5995DA;
